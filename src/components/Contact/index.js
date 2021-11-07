@@ -22,15 +22,17 @@ function ContactForm() {
                     setErrorMessage('');
                 }
             }
-
-            console.log(isValid);
-            console.log('errorMessage', errorMessage);
+        } else {
+            if(!e.target.value.length) {
+                setErrorMessage(`Your ${e.target.name} is required.`);
+            } else {
+                setErrorMessage('');
+            }
         }
     }
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
     }
 
     return(
@@ -40,7 +42,7 @@ function ContactForm() {
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="name">Name:</label>
-                        <input type="text" className="form-control" name="name" defaultValue={name} onChange={handleChange}/>
+                        <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange} onChange={handleChange}/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="email">Email address:</label>
@@ -48,7 +50,7 @@ function ContactForm() {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="message">Message:</label>
-                        <textarea name="message" className="form-control" rows="5" defaultValue={message} onChange={handleChange}></textarea>
+                        <textarea name="message" className="form-control" rows="5" defaultValue={message} onBlur={handleChange} onChange={handleChange}></textarea>
                     </div>
                     {errorMessage && (
                         <div>

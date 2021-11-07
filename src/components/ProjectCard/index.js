@@ -10,7 +10,7 @@ function ProjectCard(props) {
                 <h5 className="card-title">{name}</h5>
             </div>
             <div className="card-footer d-flex bg-transparent border-success justify-content-center">
-                <a href={deployed_url} className="card-link"><button className="btn btn-success"><i class="fas fa-link"/></button></a>
+                <a href={deployed_url} className="card-link"><button className="btn btn-success"><i className="fas fa-link"/></button></a>
                 <a href={repo_url} className="card-link"><button className="btn btn-danger"><i className="fab fa-github"/></button></a>
             </div>
         </div>
