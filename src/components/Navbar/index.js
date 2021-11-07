@@ -16,8 +16,8 @@ function Navbar(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        {tabs.map(tab => (
-                            <li className="nav-item">
+                        {tabs.map((tab, index) => (
+                            <li key={index} className="nav-item">
                                 <a className={`nav-link + ${tab === currentPage && 'active'}`} aria-current="page" href={`#${tab.toLocaleLowerCase}`} onClick={() => handlePageChange(tab)}>{tab}</a>
                             </li>
                         ))}

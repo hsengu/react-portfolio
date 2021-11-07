@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Navbar from './components/Navbar';
-import Scripts from './components/Scripts';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -28,7 +27,6 @@ function App() {
         { renderPage() }
       </main>
       <Footer />
-      <Scripts />
     </>
   );
 }
