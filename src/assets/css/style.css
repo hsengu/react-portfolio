@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6));
+}
+
+/* Styling for Hero Section */
+#top {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/bg-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+#about-me {
+    background-color: rgb(56, 79, 106);
+}
+
+#about-me img {
+    border-radius: 100%;
+}
+
+#my-work {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/bg-contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+#carousel .card {
+    border-color: white;
+    border-width: 2px;
+    color: white;
+}
+
+#carousel .card .title {
+    color: white;
+}
+
+#carousel .card footer {
+    background-color: white;
+}
+
+#carousel .card .content {
+    height: 500px;
+}
+
+.footer {
+    padding: 1.25rem;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3));
+}
+
+.footer > *, .footer p strong {
+    margin: none;
+    padding: 0px;
+    border: 0px;
+    color: white;
+}

@@ -1,0 +1,69 @@
+.workday-scheduler {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/workday-scheduler.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.web-password-generator {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/web-password-generator.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.weather-dashboard {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/weather-dashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.RagnarokInfo {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/RagnarokInfo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.quiz-webapp {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/quiz-webapp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.pokebattle {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/pokebattle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
+
+.calorie-counter {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)),
+        url("../img/project-badges/calorie-tracker.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 100%;
+}
