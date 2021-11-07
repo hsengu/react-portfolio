@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Ragnarok Info",
+        "deployed_url":"https://hsengu.com/blog/first-app-build/",
+        "repo_url":"https://github.com/hsengu/RagnarokInfo",
+        "img":"ragnarokinfo.jpg"
+    },
+    {
+        "name":"Pokemon Battleground",
+        "deployed_url":"https://hsengu.github.io/pokebattle/",
+        "repo_url":"https://github.com/hsengu/pokebattle",
+        "img":"pokebattle.jpg"
+    },
+    {
+        "name":"Calorie Tracker",
+        "deployed_url":"https://warm-harbor-01230.herokuapp.com/",
+        "repo_url":"https://github.com/hsengu/calorie-counter",
+        "img":"calorie-tracker.jpg"
+    },
+    {
+        "name":"Weather Dashboard",
+        "deployed_url":"https://hsengu.github.io/weather-dashboard/",
+        "repo_url":"https://github.com/hsengu/weather-dashboard",
+        "img":"weather-dashboard.jpg"
+    },
+    {
+        "name":"Web Password Generator",
+        "deployed_url":"https://hsengu.github.io/web-password-generator/",
+        "repo_url":"https://github.com/hsengu/web-password-generator",
+        "img":"web-password-generator.jpg"
+    },
+    {
+        "name":"Workday Scheduler",
+        "deployed_url":"https://hsengu.github.io/workday-scheduler",
+        "repo_url":"https://github.com/hsengu/workday-scheduler",
+        "img":"workday-scheduler.jpg"
+    }
+]

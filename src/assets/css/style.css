@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+main > section {
+    padding-top: 59px;
+}
+
 .navbar {
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
@@ -12,7 +16,7 @@
 }
 
 /* Styling for Hero Section */
-#top {
+.jumbotron {
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)),
@@ -21,6 +25,7 @@
     background-position: center;
     background-attachment: fixed;
     background-position: 100%;
+    height: calc(100vh - 144px);
 }
 
 #about-me {
@@ -31,45 +36,18 @@
     border-radius: 100%;
 }
 
-#my-work {
+footer {
+    height: 85px;
+    width: 100%;
+}
+
+.page-footer {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6)),
-        url("../img/bg-contact.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 100%;
+        rgba(0, 0, 0, 1), 
+        rgba(0, 0, 0, 1));
 }
 
-#carousel .card {
-    border-color: white;
-    border-width: 2px;
-    color: white;
-}
-
-#carousel .card .title {
-    color: white;
-}
-
-#carousel .card footer {
-    background-color: white;
-}
-
-#carousel .card .content {
-    height: 500px;
-}
-
-.footer {
-    padding: 1.25rem;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3));
-}
-
-.footer > *, .footer p strong {
-    margin: none;
-    padding: 0px;
-    border: 0px;
-    color: white;
+.footer-span {
+    padding-left: 10px;
+    padding-right: 10px;
 }
