@@ -34,5 +34,11 @@
         "deployed_url":"https://hsengu.github.io/workday-scheduler",
         "repo_url":"https://github.com/hsengu/workday-scheduler",
         "image":"workday-scheduler.jpg"
+    },
+    {
+        "name":"Gamebuy",
+        "deployed_url":"https://hsengu.github.io/gamebuy",
+        "repo_url":"https://gamebuy-light.herokuapp.com/sell",
+        "image":"gamebuy.jpg"
     }
 ]
