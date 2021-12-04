@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import './assets/css/style.css';
 
 function App() {
   const [currentPage, handlePageChange] = useState('About');
